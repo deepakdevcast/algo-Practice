@@ -1,11 +1,12 @@
 import {createInterface } from 'readline/promises';
 
-const r1 = createInterface({
-    input: process.stdin,
-    output: process.stdout,
-})
+
 
 export const readNumberInput = async () => {
+    const r1 = createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    })
     const input = await r1.question('Enter Input: ');
     r1.close()
     const number = Number(input);
@@ -14,6 +15,10 @@ export const readNumberInput = async () => {
 }
 
 export const readString = async () => {
+    const r1 = createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    })
     const input = await r1.question('Enter Input: ');
     r1.close()
     return input;
