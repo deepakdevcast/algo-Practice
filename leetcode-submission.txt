@@ -1,0 +1,14 @@
+// Problem - 191. Number of 1 Bits
+// https://leetcode.com/problems/number-of-1-bits/submissions/954390236/
+
+// Problem - 1281. Subtract the Product and Sum of Digits of an Integer
+// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/submissions/954371193/
+
+// 7. Reverse Integer
+// https://leetcode.com/problems/reverse-integer/submissions/527382170/
+
+// 1009. Complement of Base 10 Integer
+// https://leetcode.com/problems/complement-of-base-10-integer/submissions/954444818/
+
+// 476. Number Complement
+// https://leetcode.com/problems/number-complement/submissions/954450709/
