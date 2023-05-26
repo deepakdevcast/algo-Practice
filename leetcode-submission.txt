@@ -21,3 +21,6 @@
 
 // 1207. Unique Number of Occurrences
 // https://leetcode.com/problems/unique-number-of-occurrences/submissions/955935357/
+
+// 905. Sort Array By Parity
+// https://leetcode.com/problems/sort-array-by-parity/submissions/957912596/
