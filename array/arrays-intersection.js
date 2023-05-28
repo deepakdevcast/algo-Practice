@@ -1,8 +1,7 @@
 import inputNumberArray from "./input-array.js";
 // given two sorted array, find the intersection of array
 // https://www.codingninjas.com/codestudio/problems/intersection-of-2-arrays_1082149
-let a = await inputNumberArray();
-let b= await inputNumberArray();
+
 
 // Two Pointer Approach
 const findIntersection = (a,b) => {
@@ -20,4 +19,9 @@ const findIntersection = (a,b) => {
     return intersection;
 }
 
-console.log(findIntersection(a,b))
+const run = async ()=>{
+    let a = await inputNumberArray();
+    let b= await inputNumberArray();
+    console.log(findIntersection(a,b))
+}
+// await run();

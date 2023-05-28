@@ -1,6 +1,5 @@
 import inputNumberArray from "./input-array.js";
 
-let a = await inputNumberArray();
 
 const swapAlternate = (a) => {
     let pointer = 0;
@@ -13,4 +12,8 @@ const swapAlternate = (a) => {
     return a;
 }
 
-console.log(swapAlternate(a));
+const run = async ()=>{
+    let a = await inputNumberArray();
+    console.log(swapAlternate(a));
+}
+// await run();

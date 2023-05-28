@@ -1,5 +1,5 @@
 import inputNumberArray from "./input-array.js";
-let a = await inputNumberArray();
+
 
 const reverseArray = (list)=>{
     const size = list.length;
@@ -11,6 +11,10 @@ const reverseArray = (list)=>{
     return list;
 }
 
-console.log(reverseArray(a))
+const run = async ()=>{
+    let a = await inputNumberArray();
+    console.log(reverseArray(a))
+}
+// await run();
 // Approach 2
 // console.log(a.reverse());

@@ -1,8 +1,6 @@
 import { readNumberInput } from "../input.js";
 import inputNumberArray from "./input-array.js";
 
-let a = await inputNumberArray();
-const number = await readNumberInput('Number to find: ');
 // Linear Search
 const linearSearch = (list,number)=>{
     for(let i=0;i<list.length;i++){
@@ -11,10 +9,16 @@ const linearSearch = (list,number)=>{
     return -1;
 }
 
-const index = linearSearch(a,number);
+const run = async ()=>{
+    let a = await inputNumberArray();
+    const number = await readNumberInput('Number to find: ');
+    
+    const index = linearSearch(a,number);
 
-// approach 2
-// const index = a.indexOf(number)
+    // approach 2
+    // const index = a.indexOf(number)
 
-if(index==-1) console.log('element not found!!')
-else console.log('find a number at index:',index)
+    if(index==-1) console.log('element not found!!')
+    else console.log('find a number at index:',index)
+}
+// await run();

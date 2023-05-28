@@ -1,5 +1,4 @@
-let a = await inputNumberArray();
-
+import inputNumberArray from "./input-array.js";
 const findMIinMaxInList = (list)=>{
     // Approach 1
     let min = Number.MAX_VALUE;
@@ -14,4 +13,9 @@ const findMIinMaxInList = (list)=>{
     return [min, max]
 }
 
-console.log(findMIinMaxInList(a));
+const run = async ()=>{
+    let a = await inputNumberArray();
+    console.log(findMIinMaxInList(a));
+}
+
+// await run();

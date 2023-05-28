@@ -2,10 +2,6 @@ import inputNumberArray from "./input-array.js";
 import { readNumberInput } from "../input.js";
 
 // https://www.codingninjas.com/codestudio/problems/pair-sum_697295
-let a =await inputNumberArray();
-console.log(a)
-let pair_sum = await readNumberInput();
-console.log(pair_sum)
 const pairSum = (a,sum)=>{
     let pairArr = []
     for(let i=0;i<a.length;i++){
@@ -25,5 +21,9 @@ const pairSum = (a,sum)=>{
     }
     return pairArr;
 }
-
-console.log(pairSum(a,pair_sum))
+const run = async ()=>{
+    let a =await inputNumberArray();
+    let pair_sum = await readNumberInput("Enter sum of pair: ");
+    console.log(pairSum(a,pair_sum))
+}
+// await run();

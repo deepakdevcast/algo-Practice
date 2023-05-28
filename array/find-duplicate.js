@@ -1,7 +1,5 @@
 import inputNumberArray from "./input-array.js";
 
-let a = await inputNumberArray();
-
 const findUniqueUsingDict = (a) => {
     const dict = {}
     for(let i=0;i<a.length;i++){
@@ -15,4 +13,9 @@ const findUniqueUsingDict = (a) => {
     return uniq;
 }
 
-console.log(findUniqueUsingDict(a))
+
+const run = async ()=>{
+    let a = await inputNumberArray();
+    console.log(findUniqueUsingDict(a))
+}
+// await run();
