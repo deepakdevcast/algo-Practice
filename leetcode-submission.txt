@@ -24,3 +24,9 @@
 
 // 905. Sort Array By Parity
 // https://leetcode.com/problems/sort-array-by-parity/submissions/957912596/
+
+// 1752. Check if Array Is Sorted and Rotated
+// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/959809372/
+
+// 189. Rotate Array
+// https://leetcode.com/problems/rotate-array/submissions/959771277/
