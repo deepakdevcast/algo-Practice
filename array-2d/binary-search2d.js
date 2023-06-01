@@ -19,7 +19,7 @@ const binaryearch2dArray = (arr, element) => {
                 mid2= parseInt(i1 + (i2-i1)/2)
                 if(element === arr[mid][mid2]) return [mid,mid2]
                 else if(element< arr[mid][mid2]) i2=mid2-1
-                else i1=mid+1
+                else i1=mid2+1
             }
         }
         else if(element<arr[mid][0]) j=mid-1
@@ -35,4 +35,4 @@ const run = async () => {
     console.log(binaryearch2dArray(arr,element));
 }
 
-await run();
+// await run();

@@ -19,4 +19,4 @@ const run = async () => {
     console.log(linearSearch2dArray(arr,element));
 }
 
-await run();
+// await run();

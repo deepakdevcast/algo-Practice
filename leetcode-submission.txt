@@ -48,3 +48,11 @@
 
 // 443. String Compression
 // https://leetcode.com/problems/string-compression/submissions/961102390/
+
+// 54. Spiral Matrix
+// https://leetcode.com/problems/spiral-matrix/submissions/961847299/
+
+// 74. Search a 2D Matrix
+// https://leetcode.com/problems/search-a-2d-matrix/submissions/961862457/ 
+// https://leetcode.com/problems/search-a-2d-matrix/submissions/961868987/ - using by imagine 2d as 1d array
+
