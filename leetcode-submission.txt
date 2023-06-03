@@ -56,3 +56,6 @@
 // https://leetcode.com/problems/search-a-2d-matrix/submissions/961862457/ 
 // https://leetcode.com/problems/search-a-2d-matrix/submissions/961868987/ - using by imagine 2d as 1d array
 
+// 204. Count Primes
+// https://leetcode.com/problems/count-primes/submissions/962444705/ - using Sieve of Eratosthens
+
