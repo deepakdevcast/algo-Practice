@@ -59,3 +59,5 @@
 // 204. Count Primes
 // https://leetcode.com/problems/count-primes/submissions/962444705/ - using Sieve of Eratosthens
 
+// 509. Fibonacci Number
+// https://leetcode.com/problems/fibonacci-number/submissions/965344227/ - using recursion
