@@ -61,3 +61,10 @@
 
 // 509. Fibonacci Number
 // https://leetcode.com/problems/fibonacci-number/submissions/965344227/ - using recursion
+
+// 78. Subsets
+// https://leetcode.com/problems/subsets/submissions/967473648/
+
+// 17. Letter Combinations of a Phone Number
+// https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/967641958/ - with backtracking
+// https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/967642784/ - without backtracking
