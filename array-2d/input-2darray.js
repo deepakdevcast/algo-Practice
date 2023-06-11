@@ -1,9 +1,9 @@
 import { readNumberInput } from "../input.js";
 
-const input2dArrayNumber = async () => {
+const input2dArrayNumber = async (rows,cols) => {
     const arr = []
-    const row = await readNumberInput("Enter number rows: ");
-    const col = await readNumberInput("Enter number columns: ");
+    const row = (rows) ? rows : await readNumberInput("Enter number rows: ");
+    const col = (cols) ? cols : await readNumberInput("Enter number columns: ");
     for(let i=0;i<row;i++){
         arr.push([])
         for(let j=0;j<col;j++){
