@@ -3,7 +3,7 @@ import inputNumberArray from "../array/input-array.js";
 const bubbleSort = (a)=>{
     const n = a.length
     for(let i=0;i<n-1;i++){
-        // every interation (i+1)th largest element placed in actual location
+        // every iteration (i+1)'th largest element placed in the actual location
         let swap = false
         for(let j=0;j<n-1-i;j++){
             if(a[j]>a[j+1]) {
@@ -13,6 +13,7 @@ const bubbleSort = (a)=>{
                 swap=true
             }
         }
+        // swap false means the array is in sorted form
         if(!swap) break;
     }
     return a;
